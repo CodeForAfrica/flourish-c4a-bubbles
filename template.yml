@@ -1,0 +1,21 @@
+id: ''
+name: Untitled template
+description: A Flourish template
+author: Unknown author
+sdk_version: 3
+build:
+  src:
+    script: npm run build
+    directory: src
+    files:
+      - rollup.config.js
+  less:
+    script: npm run less
+    directory: less
+settings:
+  - Network diagram
+  - property: background_color
+    name: Background color
+    description: A setting for changing a number
+    type: color
+data: null

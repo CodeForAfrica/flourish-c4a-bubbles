@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The <title> is inserted by Flourish -->
+
+		<!-- Link to a stylesheet, or include an inline <style> section here -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="bubble-map.css">
+	</head>
+	<body>
+		<div class="network" 
+		    data-key-titles='["Sending","Receiving"]'
+		    data-text-before-total='["Sends","Receives"]' 
+		    data-text-after-total='["transactions to", "transactions from"]' 
+		    data-text-after-total-singular='["transaction to", "transaction from"]' 
+		    data-node-type-text="countries" 
+		    data-node-type-text-singular="country"
+		    data-svg="false" 
+		    data-key-colors='["#2353aa","#ae7ea2"]' 
+		    data-key-colors-selected='["#427c88","#cf7a00"]'
+		    data-color-lines="#d8d8d8" 
+		    data-color-lines-hover="#a5a5a5" 
+		    data-color-background="#EAEAEA" 
+		    data-instructions="Click on a country to see the connections">
+		</div>
+		<script src="bubble-map.js"></script>
+	</body>
+</html>
